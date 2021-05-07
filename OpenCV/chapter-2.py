@@ -2,7 +2,8 @@
 
 import cv2
 import numpy as np
-img = cv2.imread("Resources/elon musk.jpg")
+img = cv2.imread("Source/elon musk.jpg")
+cv2.resize()
 kernel = np.ones((5,5), np.uint8)
 
 imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

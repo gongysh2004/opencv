@@ -33,7 +33,7 @@ def stackImages(scale,imgArray):
         ver = hor
     return ver
 
-img = cv2.imread('Source/bob.jpg')
+img = cv2.imread('../Source/bob.jpg')
 #imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 imgStack = stackImages(0.5,([img,img,img],[img,img,img]))
